@@ -1,46 +1,75 @@
 <!DOCTYPE>
 <html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>Student Bio</title>
 
-<head>
-    <meta charset="UTF-8">
-    <title>Student Bio</title>
+        <style>
+            h1{
+                text-align: center;                
+                color: white;
+                background-color: black;
+               
+            }
+            .two{
+                padding-bottom: 0;
+            }
 
-    <style>
-        h1 {
-            text-align: center;
-        }
-    </style>
+            .column{
+                float: left;
+                width: 33%
+            }
+            p{
+                margin-top: 20%;
+            }
+            ul{
+                padding-top: none;
+            }
+            h2{
+                 margin-left: 10%;
+            }
+            img{
+                 margin-left: 10%;
+            }
+            body{
+                background-color: #efeee7;
+                margin-bottom: 0;
+                padding: 0;
+                
+            }
+           
+
+        </style>
 
 
-</head>
-
-<body>
-    <h1>Student Bio</h1>
-    <br>
-    <h2>AJ Patel</h2>
-    <img src="http://nick.mtvnimages.com/nick/video/images/nick/spongebob-050-full-episode-16x9.jpg?quality=0.60" width="250"
-        height="250">
-    <br>
-    <p>My name is AJ Patel and I am learning web development.</p>
-    <br>
-
-    <div class="column">
-        <h2>Contact Info</h2>
+    </head>
+    
+    <body>
+        <h1>Student Bio</h1>
         <br>
-        <ul>
-            <li>
-                <strong>Email: </strong> ajpatel@u.northwestern.edu</li>
-            <li>
-                <strong>Github: </strong>
-                <a href="https://github.com/ayjaypnil" target="_blank">ayjaypnil</a>
-            </li>
-            <li>
-                <strong>Portfolio:</strong>
-                <em>coming soon</em>
-            </li>
-        </ul>
+<div class= "classOne">
+    <div class="row">
+        <div class="column">
+            <h2>AJ Patel</h2>
+            <img src="http://nick.mtvnimages.com/nick/video/images/nick/spongebob-050-full-episode-16x9.jpg?quality=0.60" width="250" height="250">
+            <br>
+        </div>
+
+        <div class="column">
+            <p>My name is AJ Patel and I am learning web development.</p>
+            <br>
+        </div>
+
+        <div class="column">
+            <h2 class="two">Contact Info</h2>
+            <br>
+            <ul>
+                <li><strong>Email: </strong> ajpatel@u.northwestern.edu</li>
+                <li><strong>Github: </strong> <a href="https://github.com/ayjaypnil" target="_blank">ayjaypnil</a></li>
+                <li><strong>Portfolio:</strong> <em>coming soon</em></li>
+            </ul>
+        </div>
     </div>
-
-</body>
-
+</div>
+    </body>
 </html>
